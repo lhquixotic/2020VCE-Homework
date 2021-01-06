@@ -1,12 +1,6 @@
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% <Vehicle Control Engineering> (Year 2019)
-% by Y. Lv, Y. Zhang, W. Cao, M. Mahmoud, T. Mujahid, Tsinghua University
-% RL Example for Autonomous Driving in Curved Grid Road
-% Latest updated on 4th, Jan, 2020
-%% 
-% This m file is related to the S-function module in ourMPC.slx
-% and it completely solves the MPC problem while returning the 
-% control input afdes (the desired acceleration of following vehicle).
+% <Vehicle Control Engineering: Homework4 Solution> 
+% Author: Huiqian Li
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 function [sys,x0,str,ts,simStateCompliance] = MPC_controller(t,x,u,flag,G,H,Ts)
